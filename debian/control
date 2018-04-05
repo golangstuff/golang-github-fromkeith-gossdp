@@ -1,0 +1,18 @@
+Source: golang-github-fromkeith-gossdp
+Section: devel
+Priority: optional
+Maintainer: Aron Xu <happyaron.xu@gmail.com>
+Build-Depends: debhelper (>= 10),
+               dh-golang,
+               golang-any,
+               golang-golang-x-net-dev
+Standards-Version: 4.1.3
+Homepage: https://github.com/fromkeith/gossdp
+XS-Go-Import-Path: github.com/fromkeith/gossdp
+
+Package: golang-github-fromkeith-gossdp-dev
+Architecture: all
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+Description: Go port of node-ssdp
+ Go port of node-ssdp
